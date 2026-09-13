@@ -63,7 +63,7 @@ export default function Home() {
 
       <section className="welcome-panel">
         <div>
-          <span className="panel-label">HDFC LIFE</span>
+          <span className="panel-label">  {process.env.NEXT_PUBLIC_COMPANY_NAME}</span>
 
           <h2>
             Your advisor

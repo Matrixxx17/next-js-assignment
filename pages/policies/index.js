@@ -39,7 +39,7 @@ export default function Policies({ policies }) {
         <p className="policy-count">
           {policies.length} policies
         </p>
-      </header>
+      </header>,
 
       <section className="policy-grid">
         {policies.map((policy) => (
